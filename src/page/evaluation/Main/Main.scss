@@ -1,0 +1,81 @@
+body {
+    min-height: 100%;
+    background-color: #efefef;
+    color: #2f2f2f;
+}
+
+.content {
+    height: 100%;   
+    .eva-content {
+        background-color: #fff;
+        overflow: hidden;
+        margin: px2rem(10px);
+        margin-top: px2rem(74px);
+    }
+    .star-area {
+        text-align: center;
+        margin-top: px2rem(30px);
+    }
+    .star-item {
+        width: px2rem(32px);
+        height: px2rem(32px);
+        background-image: url('./img/gray-star.png');
+        background-size: cover;
+        display: inline-block;
+        margin-right: px2rem(10px);
+        &.light {
+            background-image: url('./img/light-star.png');
+        }
+    }
+    .comment {
+        margin-top: px2rem(20px);
+        margin-left: px2rem(10px);
+        margin-right: px2rem(10px);
+        border-bottom: 1px solid #e4e4e4;
+        padding-bottom: px2rem(13px);
+        position: relative;
+        
+        .count {
+            font-size: px2rem(11px);
+            color: #aaa;
+            position: absolute;
+            bottom: px2rem(24px);
+            right: px2rem(9px);
+        }
+        .comment-input {
+            width: 100%;
+            height: px2rem(100px);
+            border: 1px solid #c6c6c6;
+            box-sizing: border-box;
+
+            outline: none;
+            -webkit-appearance: none;
+            border-radius: 0;
+
+            font-size: px2rem(16px);
+            padding: px2rem(10px);
+            background-color: #fafafa;
+
+
+        }
+
+    }
+    .product-name {
+        padding-top: px2rem(20px);
+        padding-bottom: px2rem(20px);
+        padding-left: px2rem(20px);
+        text-align: left;
+        font-size: px2rem(16px);
+    }
+    .submit {
+        width: 100%;
+        height: px2rem(50px);
+        line-height: px2rem(50px);
+        font-size: px2rem(16px);
+        color: #333;
+        background-color: #ffd161;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+    }
+}

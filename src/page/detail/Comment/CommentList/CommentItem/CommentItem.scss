@@ -1,0 +1,74 @@
+.comment-item {
+    display: flex;
+    padding: px2rem(15px) px2rem(15px) px2rem(12px) px2rem(15px);
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+    .comment-time {
+        position: absolute;
+        right: px2rem(20px);
+        top: px2rem(20px);
+        color: #898989;
+        font-size: px2rem(12px);
+    }
+    .avatar {
+        width: px2rem(40px);
+        height: px2rem(40px);
+        border-radius: 50%;
+    }
+    .nickname {
+        color: #2f2f2f;
+        font-size: px2rem(16px);
+    }
+    .item-right {
+        flex: 1;
+        margin-left: px2rem(20px);
+    }
+    .star-and-time {
+        margin-top: px2rem(6px);
+        display: flex;
+    }
+    .send-time {
+        color: #898989;
+        font-size: px2rem(12px);
+        margin-left: px2rem(10px);
+    }
+    .comment-text {
+        margin-top: px2rem(6px);
+        font-size: px2rem(14px);
+        line-height: px2rem(19px);
+    }
+    .img-item {
+        display: block;
+        float: left;
+        width: px2rem(80px);
+        height: px2rem(80px);
+        background-size: cover;
+        background-position: center center;
+        margin-right: px2rem(5px);
+    }
+    .img-content {
+        margin-top: px2rem(8px);
+    }
+    .like-info {
+        margin-top: px2rem(4px);
+        color: #576b95;
+        font-size: px2rem(12px);
+        line-height: px2rem(18px);
+        background-image: url('./img/favor.png');
+        background-repeat: no-repeat;
+        background-position: left 1px;
+        background-size: px2rem(12px) px2rem(12px);
+        padding-left: px2rem(20px);
+    }
+    .tag-info {
+        margin-top: px2rem(4px);
+        color: #898989;
+        font-size: px2rem(12px);
+        line-height: px2rem(18px);
+        background-image: url('./img/tag.png');
+        background-repeat: no-repeat;
+        background-position: left 1px;
+        background-size: px2rem(12px) px2rem(12px);
+        padding-left: px2rem(20px);
+    }
+}

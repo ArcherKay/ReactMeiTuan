@@ -1,0 +1,62 @@
+.comment-score {
+  display: flex;
+  padding-left: px2rem(25px);
+  padding-right: px2rem(25px);
+  padding-top: px2rem(15px);
+  padding-bottom: px2rem(15px);
+  border-top: px2rem(10px) solid #f6f6f6;
+  border-bottom:1px solid #d5d5d5;
+
+  .mail-score-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .other-score-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+  }
+  .taste-star-wrap,.package-star-wrap{
+    margin-left: px2rem(15px);
+    margin-right: px2rem(15px);
+
+  }
+  .package-score,
+  .taste-score {
+    display: flex;
+    justify-content: center;
+  }
+  .mail-score{
+      font-size: px2rem(32px);
+      color: #ffb000;
+      margin-bottom: px2rem(5px);
+  }
+  .mail-text {
+    font-size: px2rem(12px);
+    color: #656565;
+  }
+  .taste-text,.package-text {
+    font-size: px2rem(12px);
+    color: #554343;
+}
+  .taste-score-text,.package-score-text{
+    font-size: px2rem(15px);
+    color: #ffb000;
+  }
+  .send-score-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: px2rem(3px);
+  }
+  .send-score{
+    font-size: px2rem(24px);
+    color: #999;
+    margin-bottom: px2rem(5px);
+    text-align: center;
+}
+.send-text {
+  font-size: px2rem(12px);
+  color: #656565;
+}
+}

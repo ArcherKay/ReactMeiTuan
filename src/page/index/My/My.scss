@@ -1,0 +1,101 @@
+.my{
+    .header{
+        width: 100%;
+        height: px2rem(160px);
+
+        background-image: url('./img/header.png');
+        background-size: cover;
+        overflow: hidden;
+    }
+    .avatar{
+        width: px2rem(72px);
+        height: px2rem(72px);
+        margin: 0 auto;
+        display: block;
+        margin-top: px2rem(25px);
+        border: 3px solid rgba(255,255,255,0.4);
+        border-radius: 50%
+    }
+    .nickname{
+        color: #333;
+        font-size: px2rem(16px);
+        text-align: center;
+        margin-top: px2rem(15px);
+    }
+    .content{
+        min-height: px2rem(507px);
+        background-color: #eee;
+    }
+    .items{
+        border-bottom: 10px solid #eee;
+        background-color: #fff;
+        li{
+            height: px2rem(45px);
+            font-size: px2rem(14px);
+            line-height: px2rem(45px);
+            position: relative;
+            padding-left: px2rem(26px);
+            margin-left: px2rem(26px);
+            border-bottom: 1px solid #e4e4e4;
+            &:last-child{
+                border: none;
+            }
+            &:before{
+                content: '';
+                display: block;
+                width: px2rem(16px);
+                height: px2rem(16px);
+                position: absolute;
+                top:50%;
+                left: 1px;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                background-size: cover;
+            }
+            &:after{
+                content: '>';
+                display: block;
+                width: px2rem(16px);
+                height: px2rem(16px);
+                position: absolute;;
+                top: 0;
+                right: px2rem(9px);
+                color: #aaa;                
+            }
+        }
+        .address{
+            &:before{
+                background-image: url('./img/address.png');
+            }
+        }
+        .email{
+            &:before{
+                background-image: url('./img/email.png');
+            }
+        }
+        .money{
+            &:before{
+                background-image: url('./img/money.png');
+            }
+        }
+        .question{
+            &:before{
+                background-image: url('./img/question.png');
+            }
+        }
+    }
+    .tel{
+        font-size: px2rem(15px);
+        color: #ffb000;
+        text-align: center;
+        height: px2rem(46px);
+        line-height: px2rem(46px);
+        background-color: #fff;
+    }
+    .time{
+        font-size:px2rem(14px);
+        color: #999;
+        text-align: center;
+        margin-top: px2rem(13px);
+    }
+}

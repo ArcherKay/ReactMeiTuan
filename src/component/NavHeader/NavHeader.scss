@@ -1,0 +1,24 @@
+.nav{
+    height: 64px;
+    border-bottom: 1px solid #b2b2b2;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    background-color: #fff;
+    .title{
+        font-size: 17px;
+        color: #2f2f2f;
+        text-align: center;
+        line-height: 84px;
+    }
+    .back-icon{
+        width: 27px;
+        height: 27px;
+        position: absolute;
+        top: 23px;
+        left: 10px;
+        background-image: url('./img/back.png');
+        background-size: cover;
+    }
+}

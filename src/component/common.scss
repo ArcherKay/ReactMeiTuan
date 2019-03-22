@@ -1,0 +1,38 @@
+
+
+.clearfix::after{
+    content: ' ';
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both
+}
+.scale-1px{
+    position: relative;
+    border: none;
+}
+.scale-1px:after{
+    content: '';
+    position: absolute;;
+    height: 1px;
+    width: 100%;
+    bottom: 0;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0,0;
+    transform-origin: 0,0;
+}
+.one-line{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.two-line{
+    display: -webkit-box;
+    // 超过两行就进行截取
+    -webkit-line-clamp:2;
+    // 采取垂直布局
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,73 @@
+.menu-inner {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: px2rem(110px);
+    display: flex;
+    overflow: hidden;
+    .left-bar {
+        width: px2rem(85px);
+        background-color: #efefef;
+        overflow: auto;
+        height: 100%;
+        -webkit-overflow-scrolling: touch;
+        
+    }
+    .left-bar-inner {
+        padding-bottom: px2rem(85px);
+    }
+    .left-item {
+        font-size: px2rem(14px);
+        color: #656565;
+        text-align: center;
+        height: px2rem(60px);
+        border-bottom: 1px solid #bfbfbf;
+        display: flex;
+        justify-content: center;
+        &.active {
+            background-color: #fff;
+        }
+    }
+    .item-text {
+        line-height: px2rem(20px);
+        align-self: center;
+        text-align: center;
+    }
+    .item-icon {
+        width: px2rem(20px);
+        height: px2rem(20px);
+        display: inline-block;
+        vertical-align: px2rem(-4px);
+        margin-right: px2rem(6px);
+    }
+    .right-list {
+        height: 100%;
+    }
+    .right-list-inner {
+        font-size: px2rem(16px);
+        padding-bottom: px2rem(85px);
+    }
+    .right-content {
+        flex: 1;
+        margin-left: px2rem(10px);
+        height: 100%;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .right-title {
+        font-size: px2rem(13px);
+        color: #333;
+        margin-top: px2rem(10px);
+        padding-left: px2rem(4px);
+        border-left: px2rem(2px) solid #ffd161;
+    }
+    .mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.7);
+    }
+}

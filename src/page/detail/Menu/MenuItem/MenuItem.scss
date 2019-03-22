@@ -1,0 +1,65 @@
+.menu-item{
+    display: flex;
+    padding-top: px2rem(25px);
+    padding-bottom: px2rem(25px);
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+    .img{
+        width: px2rem(62px);
+        height: px2rem(62px);
+        margin-right: px2rem(10px);
+    }
+    .menu-item-right{
+        flex: 1;
+    }
+    .item-title{
+        font-size: px2rem(16px);
+        color:#2f2f2f;
+    }
+    .item-desc,.item-zan{
+        color: #a9a9a9;
+        font-size: px2rem(12px);
+        margin-top: px2rem(6px);        
+        padding-right: px2rem(4px);
+        &.item-desc{
+            line-height: px2rem(17px);
+        }
+    }
+    .item-price{
+        margin-top: px2rem(10px);
+        color: #fe4d3d;
+        font-size: px2rem(18px);
+    }
+    .unit{
+        color: #a9a9a9;
+        font-size: px2rem(12px);
+    }
+    .select-content{
+         position: absolute;
+        right: px2rem(9px);
+       bottom: px2rem(21px);
+        display: flex;
+    }
+    .plus{
+        width: px2rem(25px);
+        height: px2rem(25px);
+        background-size: cover;
+        background-image: url('./img/plus.png');
+    }
+    .minus{
+        width: px2rem(25px);
+        height: px2rem(26px);
+        background-size: cover;
+        background-image: url('./img/minus.png');
+    }
+    .count{
+        font-size: px2rem(15px);
+        color: #2f2f2f;
+        width: px2rem(20px);
+        height: px2rem(25px);
+        line-height: px2rem(25px);
+        margin-left: px2rem(2px);
+        margin-right: px2rem(2px);
+        text-align: center;
+    }
+}

@@ -1,0 +1,64 @@
+.restanurant-content {
+    background-color: #f6f6f6;
+    overflow: hidden;
+    .restanurant-basic {
+        color: #2f2f2f;
+        background-color: #fff;
+        font-size: px2rem(14px);
+        margin-top: px2rem(10px);
+        padding-right: px2rem(10px);
+        padding-left: px2rem(15px);
+    }
+    .res-section {
+        padding-top: px2rem(15px);
+        padding-bottom: px2rem(15px);
+        border-bottom: 1px solid #f0f0f0;
+        display: flex;
+        &:before {
+            display: block;
+            content: '';
+            margin-right: px2rem(20px);
+            width: px2rem(16px);
+            height: px2rem(16px);
+            background-size: cover;
+        }
+    }
+    .restanurant-tel::before {
+        width: px2rem(19px);
+        background-image: url('./img/tel.png');
+    }
+    .restanurant-addr::before {
+        width: px2rem(19px);
+        background-image: url('./img/address.png');
+    }
+    .restanurant-send-time::before {
+        background-image: url('./img/time.png');
+    }
+    .restanurant-send-type::before {
+        background-image: url('./img/info.png');
+    }
+    .addr-wrap {
+        display: flex;
+    }
+    .addr-text {
+        flex: 1;
+        line-height: px2rem(20px);
+        margin-top: px2rem(-3px);
+    }
+    .meituan-send {
+        background-color: #ffd161;
+        color: #333;
+        font-size: px2rem(10px);
+        padding: px2rem(2px);
+        border-radius: px2rem(4px);
+        margin-right: px2rem(4px);
+    }
+    .restanurant-pay-type::before {
+        display: none;
+    }
+    .icon {
+        width: px2rem(17px);
+        height: px2rem(17px);
+        margin-right: px2rem(20px);
+    }
+}
